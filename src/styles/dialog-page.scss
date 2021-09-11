@@ -1,0 +1,111 @@
+.dialog-elform {
+  .el-form-item__label {
+    padding: 0 5px 0 0;
+  }
+
+  .CodeMirror {
+    height: auto;
+  }
+
+  .CodeMirror-scroll {
+    max-height: 300px;
+    min-height: 100px;
+  }
+}
+
+.line-label-item {
+  .el-form-item__label {
+  }
+
+  /deep/ .el-form-item__content {
+    margin: 0 !important;
+  }
+}
+
+.line-label {
+  text-align: center;
+  padding: 5px 0px 5px 0px;
+  background: #e6f7dd;
+  border-radius: 5px;
+  margin: 6px 58px;
+}
+
+.dialog-title {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600
+}
+
+.mini-bottom-item.el-form-item--mini.el-form-item {
+  margin-bottom: 10px;
+}
+
+.new-dialog {
+  .func-col-tag.el-tag {
+    text-overflow: ellipsis;
+    height: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    float: left;
+    width: 100%;
+
+  }
+
+  .el-transfer{
+    .el-transfer-panel__body{
+      height: 300px;
+    }
+  }
+
+  .el-transfer-panel {
+    width: 300px;
+  }
+
+  .el-transfer__buttons {
+    padding: 0 5px;
+    width: 58px;
+
+    .el-button {
+      margin-left: 0;
+    }
+  }
+
+  .el-transfer-panel__item.el-checkbox {
+    display: block!important;
+  }
+
+  .el-dialog {
+    border-radius: 30px;
+    max-width: 800px;
+  }
+
+  .el-dialog__body {
+    padding: 10px 20px 30px 20px;
+  }
+}
+
+.dialog-elform.show-form {
+  .el-form-item__content {
+    text-align: center;
+    background-color: #f4f7f3;
+    border-radius: 10px;
+  }
+
+  .CodeMirror {
+    text-align: left;
+    background: #f4f7f3;
+    border-radius: 14px;
+  }
+
+}
+
+.middle-tag {
+  height: 25px;
+  line-height: 25px;
+}
+
+.title-tag {
+  background: #5f84a7;
+  color: #f5f2f2;
+  font-weight: 600;
+}

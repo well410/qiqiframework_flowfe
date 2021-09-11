@@ -1,0 +1,103 @@
+/*首页部分中间展示颜色*/
+.showCite{
+  /*height: 125px;*/
+  background: #f7f7f7;
+  font-size: 14px;
+  color: #6b6d71;
+
+}
+.showCite-topHalf{
+  height: 55px;
+  margin-top: 5px;
+  margin-bottom: 2.5px;
+  .showCite-content{
+    width: 48.5%;
+    background: #ebeef5;
+    font-size: 16px;
+    color: #6b6d71;
+    cursor:pointer;
+  }
+
+  .showCite-space{
+    height: 55px;
+    width:1%;
+    background: #f7f7f7;
+  }
+}
+.showCite-bottomHalf{
+  height: 55px;
+  margin-top: 2.5px;
+  margin-bottom: 5px;
+  .showCite-content{
+    width: 48.5%;
+    background: #ebeef5;
+    font-size: 16px;
+    color: #6b6d71;
+    cursor:pointer;
+  }
+
+  .showCite-space{
+    width:1%;
+    background: #f7f7f7;
+  }
+}
+.citeShowFont{
+  margin-left: 2px;
+}
+.citeShowCount{
+  margin-left: 30%;
+  text-align: center;
+}
+
+.verticalScroll .el-scrollbar__wrap{
+  overflow-x: hidden;
+}
+
+/*首页部分中间展示颜色*/
+.showCite{
+  /*height: 125px;*/
+  background: #f7f7f7;
+  font-size: 14px;
+  color: #6b6d71;
+
+}
+.showCite-topHalf{
+  height: 56px;
+  background: #f9f9f9;
+  font-size: 16px;
+  color: #6b6d71;
+  margin: 5px 1% 0px;
+  //margin-top: 5px;
+}
+.showCite-bottomHalf{
+  height: 56px;
+  background: #f9f9f9;
+  font-size: 16px;
+  color: #6b6d71;
+  margin: 0px 1% 5px;
+  //margin-bottom: 5px;
+}
+.citeShowFont{
+  margin-left: 2px;
+}
+.citeShowCount{
+  margin-left: 40%;
+  text-align: left;
+}
+.horizontal-space{
+  height: 55px;
+  background: #f7f7f7;
+  width: 1%;
+}
+.vertical-space{
+  height: 3px;
+  background: white;
+}
+.cite-version{
+  color: #ffffff;
+  float: right;
+  margin-left: 15px;
+  background: #92b2ef;
+  padding: 0px 15px;
+  border-radius: 5px
+}

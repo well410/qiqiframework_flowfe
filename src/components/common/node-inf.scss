@@ -1,0 +1,21 @@
+.node-inf-title-form{
+  padding: 15px 0;
+
+  .el-form-item__label{
+    text-align: justify;
+    text-align-last: justify;
+    text-justify: distribute-all-lines;
+    padding: 0;
+    font-weight: bold;
+  }
+  .el-form-item__content{
+  }
+  .el-form-item.el-form-item--mini{
+    margin: 0;
+  }
+}
+#node-inf-title-card{
+  .el-divider{
+    margin: 0 15px;
+  }
+}

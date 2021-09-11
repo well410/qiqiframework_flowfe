@@ -1,0 +1,273 @@
+.common-title{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#sourceRule, #scoreCard, #varEdit, #evEdit2, #cmptEdit,
+#aviator-script-edit, #decsCitation, #ruleCitation,
+#globalArrTable, #data-process-edit, #extra-rule, #decsResult,
+#decsPreHandleJava,
+#er-loop-edit, #filter-edit,
+#ruleResult, #jsonEdit, #constEdit, #arrayFunc,#decsTable {
+  #node-inf-title-card {
+    .el-card__body {
+      padding: 0 20px;
+    }
+  }
+  .el-card {
+    .el-card__body{
+      padding: 0px;
+    }
+    &.node-content-card {
+      height: 92%;
+    }
+  }
+  .el-collapse-item__header{
+    font-size: 14px;
+    line-height: 60px;
+    height: 60px;
+    padding: 0 10px;
+    &.is-active{
+      background-color: #d9e9fb;
+    }
+    .el-button{
+      margin: 15px 10px;
+    }
+  }
+  .el-collapse-item__content{
+    padding:5px 10px 5px 10px;
+    .el-card__header{
+      padding: 10px;
+    }
+    .el-table thead{
+      line-height: 25px;
+    }
+
+  }
+  .icon-button{
+    i{
+      font-size: 18px;
+    }
+    .el-icon-delete{
+      color: #ff667d;
+    }
+    .el-icon-edit{
+      color: #409eff;
+    }
+    .el-icon-link{
+      color: #409eff;
+    }
+    font-size: 12px;
+    &.is-disabled{
+      svg{
+        color: #C0C4CC !important;
+      }
+    }
+    &.title-icon{
+      i{
+        font-size: 25px;
+      }
+    }
+
+  }
+  .func-col-tag.el-tag{
+    text-overflow: ellipsis;
+    height: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    float: left;
+    width: 100%;
+
+  }
+  .params-select{
+    .el-tag{
+      width: 90%;
+      .el-select__tags-text{
+        text-overflow: ellipsis;
+        height: 30px;
+        overflow: hidden;
+        white-space: nowrap;
+        float: left;
+        width: 80%;
+      }
+    }
+    .el-tag--mini {
+      padding: 0;
+    }
+    .el-select__input{
+      margin-left: 3px;
+    }
+  }
+
+}
+.right-button{
+float: right;
+  &.el-button {
+    margin: 10px 0px;
+    margin-right: 10px;
+  }
+}
+.node-set-button{
+  float:right;
+  margin-left: 70px;
+  &.el-button{
+    margin: 10px 0px;
+    background: #409EFF;
+    border-radius: 4px;
+    border: 1px solid #409EFF;
+    color: #ffffff;
+    //padding: 5px 10px;
+    font-size: 12px;
+  }
+  &.el-button:hover{
+    color: #ffffff;
+    background: #0048ff;
+    border-color: #409EFF;
+    //transform: scale(1.08);
+  }
+  &.el-button:focus{
+    color: #ffffff;
+    background-color: #409EFF;
+  }
+  &.el-button:active{
+    color: #ffffff;
+  }
+
+}
+.node-search-input.el-input--prefix{
+  border: 1px;
+  .el-input__inner{
+    padding-left: 45%;
+    border-radius: 50px;
+    text-align: left;
+  }
+  .el-input__prefix{
+    margin-left: 38%;
+    width: 35px;
+    text-align: right;
+  }
+
+  .el-input__inner:focus{
+    text-align:left;
+    padding-left: 35px;
+    +.el-input__prefix{
+      margin-left: 0;
+      width: 35px;
+      text-align: right;
+    }
+  }
+  .el-input__icon {
+    width: 35px;
+    font-size: 20px;
+    //position: absolute;
+    //left: 35px
+  }
+}
+.node-search-block{
+  margin-left: 15px;
+  button{
+    border: 0px;
+    background: #f7f7f7;
+    color: #66b1ff;
+    font-size: 14px;
+  }
+  button:hover{
+    color: #66b1ff;
+    background: #f7f7f7;
+  }
+  .el-input--suffix .el-input__inner{
+    border-radius: 50px;
+  }
+}
+.node-new-dialog{
+  .el-dialog{
+    border-radius: 30px;
+    max-width: 800px;
+  }
+  .el-dialog__body{
+    padding:0;
+    padding-bottom: 20px;
+  }
+  .el-dialog__header{
+    padding: 20px 20px;
+  }
+}
+.button-form{
+  .el-form-item__content{
+    margin-left: 0px !important;
+    float: right;
+  }
+  button{
+    min-width: 60px;
+    width: calc(20% - 2px);;
+  }
+}
+#middle-var, #func-opt, #var-rdv-filter-v2{
+  .el-transfer-panel{
+    width: 300px;
+  }
+
+  .el-transfer__buttons{
+    padding: 0 5px;
+    width: 58px;
+    .el-button{
+      margin-left: 0;
+    }
+  }
+
+  .el-transfer-panel__item.el-checkbox .el-checkbox__label {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: inherit;
+    white-space: nowrap;
+    display: inline;
+    box-sizing: border-box;
+    padding-left: 24px;
+    line-height: 30px;
+  }
+
+  .el-transfer-panel__item.el-checkbox {
+    display: block!important;
+  }
+
+  .el-transfer{
+    .el-transfer-panel__body{
+      height: 280px;
+    }
+  }
+
+
+
+  .CodeMirror{
+    height: auto;
+  }
+
+  .CodeMirror-scroll{
+    max-height: 300px;
+    min-height: 100px;
+  }
+}
+
+#funcTable{
+  .icon-button{
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+
+  }
+  .el-tag {
+    height: 25px;
+    line-height: 25px;
+  }
+}
+
+.radius-input{
+  .el-input__inner{
+    border-radius:50px;
+  }
+}

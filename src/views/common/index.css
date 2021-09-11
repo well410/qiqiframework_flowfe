@@ -1,0 +1,175 @@
+.cardList {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.tools {
+    padding-top: 0px;
+    /*padding-left: 10px;*/
+}
+
+.el-icon-view:hover {
+    color: #4091ff
+}
+
+.el-icon-delete:hover {
+    color: #4091ff
+}
+
+.el-icon-view:hover {
+    color: #4091ff
+}
+
+.el-icon-link:hover {
+    color: #4091ff
+}
+
+.el-icon-delete:hover {
+    color: #4091ff
+}
+
+.el-icon-edit:hover {
+    color: #4091ff
+}
+
+.el-icon-document-copy:hover {
+    color: #4091ff
+}
+
+.el-icon-search:hover {
+    color: #4091ff
+}
+
+.el-icon-cloudy:hover {
+    color: #4091ff
+}
+
+
+.flex-between-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-center-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-default-center{
+    display: flex;
+    align-items: center;
+}
+
+.pagination{
+    margin-top: 15px
+}
+
+.input-show-width >>> input{
+    width: 300px;
+}
+
+
+.option-left{
+    /*向左浮动*/
+    float: left;
+    padding-right: 15px;
+
+    /*最大长度为256，超出隐藏*/
+    max-width: 350px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow:hidden;
+}
+.option-right{
+    /*向左浮动*/
+    float: right;
+
+    /*最大长度为256，超出隐藏*/
+    max-width: 350px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow:hidden;
+
+    color: #8492a6;
+    font-size: 13px
+}
+
+.transfer-left{
+    /*最大长度为256，超出隐藏*/
+    width: 150px;
+    max-width: 150px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow:hidden;
+}
+
+.transfer-right{
+    /*最大长度为256，超出隐藏*/
+    width: 150px;
+    max-width: 150px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow:hidden;
+
+    color: #8492a6;
+    font-size: 13px
+}
+
+.cardList {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.tools {
+    padding-top: 0px;
+    /*padding-left: 10px;*/
+}
+
+.el-icon-view:hover {
+    color: #4091ff
+}
+
+.el-icon-delete:hover {
+    color: #4091ff
+}
+
+.el-icon-view:hover {
+    color: #4091ff
+}
+
+.el-icon-link:hover {
+    color: #4091ff
+}
+
+.el-icon-delete:hover {
+    color: #4091ff
+}
+
+.el-icon-edit:hover {
+    color: #4091ff
+}
+
+
+.flex-between-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-center-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-default-center{
+    display: flex;
+    align-items: center;
+}
+
+.pagination{
+    margin-top: 15px
+}
+

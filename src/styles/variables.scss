@@ -1,0 +1,36 @@
+//sidebar
+$menuText:#bfcbd9;
+$menuActiveText:#ffffff;
+$subMenuActiveText:#f4f4f5; //https://github.com/ElemeFE/element/issues/12951
+
+$menuBg:#001529;
+$menuHover:#263445;
+$hoverColor:#ffffff;
+
+$subMenuBg:#000c17;
+$subMenuHover:#001528;
+
+$sideBarWidth: 220px;
+$mainCardBg:#f5f7fa;
+$expandRowBg1: #ecf5ff;
+$cardHeader: #ecf5ff;
+//$cardHeader: #f6faff;
+$cardBottom: #ecf5ff;
+//$cardBottom: #f6f7f2;
+$citaTips:#f9f9f9;
+
+// the :export directive is the magic sauce for webpack
+:export {
+  menuText: $menuText;
+  menuActiveText: $menuActiveText;
+  subMenuActiveText: $subMenuActiveText;
+  menuBg: $menuBg;
+  menuHover: $menuHover;
+  subMenuBg: $subMenuBg;
+  subMenuHover: $subMenuHover;
+  sideBarWidth: $sideBarWidth;
+  mainCardBg:$mainCardBg;
+}
+
+
+

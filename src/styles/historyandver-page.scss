@@ -1,0 +1,92 @@
+.his-ver-title{
+  .el-card__body{
+    padding: 15px 20px;
+  }
+  .el-page-header__title{
+    font-size: 16px;
+  }
+  .el-page-header__content{
+    font-size: 16px;
+  }
+  .item-id{
+    margin-left: 10px;
+    color: #606266;
+  }
+}
+.is-bold{
+  font-weight: 600;
+}
+.his-ver-content{
+  .el-card__body{
+    padding: 10px 20px;
+  }
+  .icon-button{
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+    i{
+      font-size: 25px;
+    }
+  }
+  .el-divider{
+    margin: 0px 0 5px 0;
+  }
+  .el-pagination{
+    span{
+      color: #333;
+    }
+    input,.el-select .el-input .el-input__inner{
+      color: #333;
+    }
+  }
+  .el-tag {
+    height: 25px;
+    line-height: 25px;
+  }
+}
+
+.el-table-column--selection .cell{
+  padding-left: 10px;
+}
+
+.table-expand{
+  .CodeMirror{
+    height: auto;
+    border: 1px solid #b0bbd6;
+    background-color: #f0f4f9;
+    //width: 80%;
+  }
+  .CodeMirror-scroll{
+    max-height: 300px;
+    min-height: 100px;
+  }
+
+}
+
+.el-table__row.expanded {
+  background-color: $expandRowBg1;
+}
+.el-table--striped .el-table__body tr.el-table__row.el-table__row--striped.expanded{
+  background-color: $expandRowBg1;
+  td {
+    background: $expandRowBg1;
+  }
+
+}
+.el-table__expanded-cell[class*=cell]{
+  padding: 5px 0 ;
+  background-color: $expandRowBg1;
+
+}
+.el-table__expanded-cell:hover {
+  background-color: $expandRowBg1!important;
+}
+.mini-code-area{
+  .CodeMirror{
+    border: 1px solid #b0bbd6;
+    background-color: #f0f4f9;
+  }
+  .CodeMirror-scroll{
+    height: 200px;
+  }
+}
