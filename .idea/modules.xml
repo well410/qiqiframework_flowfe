@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/TcsPortal.iml" filepath="$PROJECT_DIR$/.idea/TcsPortal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/qiqiframework_flowfe.iml" filepath="$PROJECT_DIR$/.idea/qiqiframework_flowfe.iml" />
     </modules>
   </component>
 </project>
